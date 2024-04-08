@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Josefin+Sans:wght@100;200;300;400;500;600&family=Lora:ital@0;1&family=Montserrat&family=Mooli&family=Poppins:wght@300;500&family=Varela&display=swap&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <title>Roadie</title>
+</head>
+
+<body onload="slider()">
+    <div class="slides">
+        <div class="topnav">
+            <div class="title">
+                <h2>ROAD<span>IE</span></h2>
+            </div>
+            <ul class="navlinks">
+                <li class="links">Home</li>
+                <li class="links">About</li>
+                <li class="links">Services</li>
+                <li class="links">Tour Packages</li>
+                <li class="links">Page</li>
+                <li class="links">Contact</li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="slider">
+                <img src="./img/carousel-1.jpg" alt="" id="slideImg">
+            </div>
+            <div class="overlay">
+                <div class="content">
+                    <div class="cate">
+                        <span>TOUR AND TRAVEL</span>
+                    </div>
+                    <div class="homecont">
+                        <span>LET's DISCOVER THE WORLD TOGETHER!</span>
+                    </div>
+                    <button id="book">Book Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="bookingbox">
+            <input type="text" placeholder="Destination">
+            <input type="date" name="" id="">
+            <input type="date" name="" id="">
+            <input type="time" name="" id="">
+            <button>Submit</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="aboutImg">
+            <img src="./img/about.jpg" alt="">
+        </div>
+        <div class="aboutcont">
+            <h3>We Provide Best Tour Packages In Your Budget</h3>
+            <span>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et.
+                Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et
+                sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</span>
+            <div class="famplaces">
+                <img src="./img/about-1.jpg" alt="">
+                <img src="./img/about-2.jpg" alt="">
+            </div>
+            <button>Book Now</button>
+        </div>
+    </div>
+
+    <div class="destination">
+        <div class="box"><i class="fa-solid fa-money-check-dollar"></i>
+            <div class="boxcont">
+                <h4>Competitive Pricing</h4><span>Magna sit magna dolor duo dolor labore rebum amet elitr est diam
+                    sea</span>
+            </div>
+        </div>
+        <div class="box"><i class="fa-solid fa-medal"></i>
+            <div class="boxcont">
+                <h4>Competitive Pricing</h4><span>Magna sit magna dolor duo dolor labore rebum amet elitr est diam
+                    sea</span>
+            </div>
+        </div>
+        <div class="box"><i class="fa-solid fa-globe"></i>
+            <div class="boxcont">
+                <h4>Competitive Pricing</h4><span>Magna sit magna dolor duo dolor labore rebum amet elitr est diam
+                    sea</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="allplaces">
+        <div class="placetitle">
+            <span>DESTINATION</span>
+            <h3>Exlpore Trending Places</h3>
+        </div>
+        <div class="placeimgs">
+            <div class="placecont">
+                <img src="./img/destination-1.jpg" alt="">
+                <div class="placedetails">
+                    <span>United States</span>
+                    <p>100 cities</p>
+                </div>
+            </div>
+            <div class="placecont">
+                <img src="./img/destination-2.jpg" alt="">
+                <div class="placedetails">
+                    <span>United Kingdom</span>
+                    <p>80 cities</p>
+                </div>
+            </div>
+            <div class="placecont">
+                <img src="./img/destination-3.jpg" alt="">
+                <div class="placedetails">
+                    <span>Switzerland</span>
+                    <p>97 cities</p>
+                </div>
+            </div>
+        </div>
+        <div class="placeimgs">
+            <div class="placecont">
+                <img src="./img/destination-4.jpg" alt="">
+                <div class="placedetails">
+                    <span>Goa</span>
+                    <p>43 cities</p>
+                </div>
+            </div>
+            <div class="placecont">
+                <img src="./img/destination-5.jpg" alt="">
+                <div class="placedetails">
+                    <span>Norway</span>
+                    <p>20 cities</p>
+                </div>
+            </div>
+            <div class="placecont">
+                <img src="./img/destination-6.jpg" alt="">
+                <div class="placedetails">
+                    <span>Greenland</span>
+                    <p>54 cities</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="servicecont">
+            <span>SERVICES</span>
+            <h4>Tour and Travel Services</h4>
+        </div>
+        <div class="servicebox">
+            <div class="sbox">
+                <i class="fa-solid fa-plane-departure"></i>
+                <span>Travel Guide</span>
+                <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+            </div>
+            <div class="sbox">
+                <i class="fa-solid fa-ticket"></i>
+                <span>Ticket Booking</span>
+                <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+            </div>
+            <div class="sbox">
+                <i class="fa-solid fa-hotel"></i>
+                <span>Hotel Booking</span>
+                <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ptitle">
+        <span>PACKAGES</span>
+        <p>Perfect Tour Packages</p>
+    </div>
+
+    <div class="perfectplaces">
+        <div class="pbox">
+            <img src="./img/package-1.jpg" alt="">
+            <div class="locdetails">
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Thailand</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Days</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-user"></i>
+                    <span> 2 Person</span>
+                </div>
+            </div>
+            <div class="pprice">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                <span>4.5 (250)</span>
+                </div>
+                <div class="price">
+                    <span>$350</span>
+                </div>
+            </div>
+        </div>
+        <div class="pbox">
+            <img src="./img/package-2.jpg" alt="">
+            <div class="locdetails">
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>France</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Days</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-user"></i>
+                    <span> 3 Person</span>
+                </div>
+            </div>
+            <div class="pprice">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                <span>4.8 (759)</span>
+                </div>
+                <div class="price">
+                    <span>$473</span>
+                </div>
+            </div>
+        </div>
+        <div class="pbox">
+            <img src="./img/package-3.jpg" alt="">
+            <div class="locdetails">
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>London</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Days</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-user"></i>
+                    <span>4 Person</span>
+                </div>
+            </div>
+            <div class="pprice">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                <span>4.7 (253)</span>
+                </div>
+                <div class="price">
+                    <span>$355</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="perfectplaces">
+        <div class="pbox">
+            <img src="./img/package-4.jpg" alt="">
+            <div class="locdetails">
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>New York</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Days</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-user"></i>
+                    <span>4 Person</span>
+                </div>
+            </div>
+            <div class="pprice">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                <span>4.9 (987)</span>
+                </div>
+                <div class="price">
+                    <span>$654</span>
+                </div>
+            </div>
+        </div>
+        <div class="pbox">
+            <img src="./img/package-5.jpg" alt="">
+            <div class="locdetails">
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Turkey</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Days</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-user"></i>
+                    <span>3 Person</span>
+                </div>
+            </div>
+            <div class="pprice">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                <span>4.6 (540)</span>
+                </div>
+                <div class="price">
+                    <span>$390</span>
+                </div>
+            </div>
+        </div>
+        <div class="pbox">
+            <img src="./img/package-6.jpg" alt="">
+            <div class="locdetails">
+                <div class="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Ireland</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Days</span>
+                </div>
+                <div class="loc">
+                    <i class="fa-solid fa-user"></i>
+                    <span>3 Person</span>
+                </div>
+            </div>
+            <div class="pprice">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                <span>4.4 (251)</span>
+                </div>
+                <div class="price">
+                    <span>$335</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <img src="./img/carosel-4.png" alt="">
+        <div class="offercont">
+            <div class="olist">
+            <span>MEGA OFFER</span><br>
+            <p><span1>30% OFF</span1> FOR HONEYMOON</p><br>
+            <p2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis suscipit architecto deleniti, dicta maiores enim iste totam, quis minus magnam officia, necessitatibus aspernatur reprehenderit animi expedita eligendi sed delectus nulla!</p2>
+                <div class="lists"><i class="fa-solid fa-check"></i><span2>Lorem ipsum dolor sit.</span2></div>
+                <div class="lists"><i class="fa-solid fa-check"></i><span2>Lorem ipsum dolor sit.</span2></div>
+                <div class="lists"><i class="fa-solid fa-check"></i><span2>Lorem ipsum dolor sit.</span2></div>
+            </div>
+            <div class="signupPage">
+                <h3>Sign Up Now</h3>
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Set a destination">
+                <button class="signupBtn">Sign Up Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="guide">
+        <div class="guide_title">
+            <span>GUIDES</span>
+            <p>Our Travel Guides</p>
+        </div>
+        <div class="guideList">
+            <div class="guide_box">
+                <img src="./img/team-1.jpg" alt="">
+                <div class="guide_cont">
+                    <i class="fa-brands fa-instagram"></i>    
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="guide_names">
+                    <span>Monica Geller</span>
+                <p>Tourist Guide</p>
+                </div>
+            </div>
+            <div class="guide_box">
+                <img src="./img/team-2.jpg" alt="">
+                <div class="guide_cont">
+                    <i class="fa-brands fa-instagram"></i>    
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="guide_names">
+                    <span>Chandler Bing</span>
+                <p>Tourist Guide</p>
+                </div>
+            </div>
+            <div class="guide_box">
+                <img src="./img/team-3.jpg" alt="">
+                <div class="guide_cont">
+                    <i class="fa-brands fa-instagram"></i>    
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="guide_names">
+                    <span>Rachel Green</span>
+                <p>Tourist Guide</p>
+                </div>
+            </div>
+            <div class="guide_box">
+                <img src="./img/team-4.jpg" alt="">
+                <div class="guide_cont">
+                    <i class="fa-brands fa-instagram"></i>    
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="guide_names">
+                    <span>Joey Tribiani</span>
+                <p>Tourist Guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clients">
+        <div class="client_title">
+            <span>Testimonal</span>
+            <p>What Our Clients Say</p>
+        </div>
+        <div class="clientslider">
+            <div class="slide">
+                <div style="--i:1;" class="slide_card">
+                    <div class="card-img">
+                        <div class="imgcont">
+                            <img src="./img/testimonial-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Ethan Hunt</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:2;" class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Tracy Mcconel</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:3;"  class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Ted Mosby</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:4;" class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Tom</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:5;" class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Lilly Aldrin</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:6;" class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Tom Hank</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:7;" class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-7.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Emma Watson</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+                <div style="--i:8;" class="slide_card">
+                    <div class="card-img">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="imgcont">
+                            <img src="./img/testimonial-8.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-cont">
+                        <span class="client_name">Amanda</span>
+                        <p class="reviews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum ipsum eaque voluptatibus voluptatum quis quod aperiam quo illum sint? <span>Read more...</span> </p>
+                        <!-- <button class="clntbtn">View More >></button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="foot_box">
+            <div class="box0">
+                <div class="foot_title"><p>ROAD<span>IE</span></p></div>
+            <p class="foot_cont">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi molestiae perspiciatis harum perferendis iure fuga ut illum autem beatae. Non omnis labore dolores alias enim debitis, eveniet veniam repellendus ea, similique eius recusandae quibusdam. Officiis voluptas doloremque deserunt dolores soluta!
+            </p>
+            <div class="foot_links">
+                <p>FOLLOW US</p>
+                <div class="foot_follow_links">
+                    <i class="fa-brands fa-instagram"></i>    
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="foot_box">
+            <div class="box1">
+                <span3>OUR SERVICES</span3>
+            <li class="fo_links"><i class="fa-solid fa-chevron-right"></i>About</li>
+            <li class="fo_links"><i class="fa-solid fa-chevron-right"></i>Destination</li>
+            <li class="fo_links"><i class="fa-solid fa-chevron-right"></i>Services</li>
+            <li class="fo_links"><i class="fa-solid fa-chevron-right"></i>Packages</li>
+            <li class="fo_links"><i class="fa-solid fa-chevron-right"></i>Guides</li>
+            <li class="fo_links"><i class="fa-solid fa-chevron-right"></i>Blog</li>
+            </div>
+        </div>
+        <div class="foot_box">
+            <div class="box2">
+                <span3>USEFUL LINKS</span3>
+            <li class="f_links"><i class="fa-solid fa-chevron-right"></i>About</li>
+            <li class="f_links"><i class="fa-solid fa-chevron-right"></i>Destination</li>
+            <li class="f_links"><i class="fa-solid fa-chevron-right"></i>Services</li>
+            <li class="f_links"><i class="fa-solid fa-chevron-right"></i>Packages</li>
+            <li class="f_links"><i class="fa-solid fa-chevron-right"></i>Guides</li>
+            <li class="f_links"><i class="fa-solid fa-chevron-right"></i>Blog</li>
+            </div>
+        </div>
+
+        <div class="foot_box">
+            <div class="box3">
+                <div class="f_contact">
+                    <span3>CONTACT US</span3>
+                    <div class="f_loc"><i class="fa-solid fa-location-dot"></i><p>123 Street, New York, USA</p></div>
+                    <div class="f_loc"><i class="fa-solid fa-phone"></i><p>+91 7339270010</p></div>
+                    <div class="f_loc"><i class="fa-regular fa-envelope"></i><p>jc@gmail.com</p></div>
+                </div>
+                <div class="news_letter">
+                    <span3>NEWS LETTER</span3>
+                    <div class="news_btn">
+                        <input type="text" placeholder="Enter Your Email">
+                    <button>SIGN IN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
